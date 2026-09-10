@@ -1,0 +1,51 @@
+version: 1
+terms:
+  - IAM
+  - IAM Role
+  - IAM Policy
+  - IAM User
+  - IAM Group
+  - EC2
+  - S3
+  - S3 Bucket
+  - VPC
+  - EBS
+  - EFS
+  - ALB
+  - NLB
+  - CloudFront
+  - CloudWatch
+  - CloudFormation
+  - Route 53
+  - Lambda
+  - API Gateway
+  - ECS
+  - EKS
+  - Fargate
+  - RDS
+  - DynamoDB
+  - Auto Scaling
+  - Security Group
+  - Subnet
+  - Availability Zone
+  - Region
+  - SNS
+  - SQS
+  - KMS
+  - STS
+  - Elastic Beanstalk
+  - ElastiCache
+  - Redshift
+  - Glue
+  - Athena
+  - Kinesis
+  - CodePipeline
+  - CodeBuild
+  - CodeDeploy
+  - Systems Manager
+  - CloudTrail
+  - AWS Config
+  - GuardDuty
+  - WAF
+  - Shield
+  - Secrets Manager

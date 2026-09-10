@@ -1,0 +1,121 @@
+version: 1
+corrections:
+  - from: "i am role"
+    to: "IAM Role"
+    match: literal
+    auto: true
+    requires_context: ["aws", "ec2", "s3", "policy", "chính sách", "quyền", "truy cập", "role"]
+
+  - from: "i am policy"
+    to: "IAM Policy"
+    match: literal
+    auto: true
+    requires_context: ["aws", "iam", "quyền", "policy"]
+
+  - from: "i am"
+    to: "IAM"
+    match: literal
+    auto: true
+    requires_context: ["aws", "user", "role", "policy", "permission", "xác thực", "phân quyền", "cloud"]
+
+  - from: "e c hai"
+    to: "EC2"
+    match: literal
+    auto: true
+    requires_context: ["aws", "instance", "máy chủ", "server", "vm", "cloud", "chạy"]
+
+  - from: "ec hai"
+    to: "EC2"
+    match: literal
+    auto: true
+    requires_context: ["aws", "instance", "máy chủ", "server", "vm", "cloud", "chạy"]
+
+  - from: "ét ba"
+    to: "S3"
+    match: literal
+    auto: false
+    requires_context: ["bucket", "lưu trữ", "storage", "object", "aws"]
+
+  - from: "ét-ba"
+    to: "S3"
+    match: literal
+    auto: false
+    requires_context: ["bucket", "lưu trữ", "storage", "object", "aws"]
+
+  - from: "vi pi si"
+    to: "VPC"
+    match: literal
+    auto: true
+    requires_context: ["aws", "subnet", "network", "mạng", "ip", "route", "gateway", "cidr"]
+
+  - from: "vê pê xê"
+    to: "VPC"
+    match: literal
+    auto: true
+    requires_context: ["aws", "subnet", "network", "mạng", "ip", "route", "gateway", "cidr"]
+
+  - from: "lam đa"
+    to: "Lambda"
+    match: literal
+    auto: true
+    requires_context: ["aws", "function", "serverless", "hàm", "chạy", "trigger", "event"]
+
+  - from: "lam-đa"
+    to: "Lambda"
+    match: literal
+    auto: true
+    requires_context: ["aws", "function", "serverless", "hàm", "chạy", "trigger", "event"]
+
+  - from: "cờ lao phót"
+    to: "CloudFront"
+    match: literal
+    auto: true
+    requires_context: ["aws", "cdn", "cache", "edge", "distribution"]
+
+  - from: "cờ-lao-phót"
+    to: "CloudFront"
+    match: literal
+    auto: true
+    requires_context: ["aws", "cdn", "cache", "edge", "distribution"]
+
+  - from: "cờ lao oát"
+    to: "CloudWatch"
+    match: literal
+    auto: true
+    requires_context: ["aws", "log", "metric", "alarm", "giám sát", "monitor"]
+
+  - from: "cờ lao phomay sần"
+    to: "CloudFormation"
+    match: literal
+    auto: true
+    requires_context: ["aws", "template", "stack", "iac", "infrastructure"]
+
+  - from: "rao 53"
+    to: "Route 53"
+    match: literal
+    auto: true
+    requires_context: ["aws", "dns", "domain", "tên miền", "record", "ip"]
+
+  - from: "râu 53"
+    to: "Route 53"
+    match: literal
+    auto: true
+    requires_context: ["aws", "dns", "domain", "tên miền", "record", "ip"]
+
+  - from: "đai na mô đi bi"
+    to: "DynamoDB"
+    match: literal
+    auto: true
+    requires_context: ["aws", "nosql", "database", "bảng", "table", "key", "cơ sở dữ liệu"]
+
+  - from: "e bi ét"
+    to: "EBS"
+    match: literal
+    auto: true
+    requires_context: ["aws", "volume", "ổ đĩa", "disk", "gắn", "attach", "ec2"]
+
+  - from: "e ép ét"
+    to: "EFS"
+    match: literal
+    auto: true
+    requires_context: ["aws", "nfs", "file system", "share", "mount"]
