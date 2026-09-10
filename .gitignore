@@ -1,0 +1,55 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Project caches and runtime data
+work/
+output/
+logs/
+state.db
+state.db-wal
+state.db-shm
+*.wav
+*.mp4
+*.m4v
+*.mov
+videos/
+sample/
+
+# Secrets & environment
+.env
+.env.local
+
+# Benchmark output runs
+benchmark/20*
+benchmark/report.md
+benchmark/results.json
+
+# IDE / OS
+.DS_Store
+._*
+.vscode/
+.idea/

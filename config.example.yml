@@ -1,0 +1,37 @@
+video_dir: "./videos"
+output_dir: "./output"
+work_dir: "./work"
+db_path: "./state.db"
+log_dir: "./logs"
+
+# ASR Model settings
+model_name: "mlx-community/whisper-large-v3-mlx"
+model_backend: "mlx" # mlx | faster-whisper
+language: "vi"
+initial_prompt: "Bài giảng AWS tiếng Việt. Thuật ngữ: IAM, EC2, S3, VPC, CloudFormation, Lambda, ECS, EKS, CloudWatch."
+word_timestamps: false
+
+# VAD settings
+vad_enabled: true
+vad_threshold: 0.5
+vad_min_silence_ms: 700
+vad_speech_pad_ms: 300
+vad_min_speech_ms: 250
+vad_merge_gap_s: 1.0
+vad_max_window_s: 300.0
+keep_audio: true
+
+# LLM Correction settings (OpenAI-compatible HTTP endpoint)
+llm_enabled: true
+llm_base_url: null # e.g. https://api.openai.com/v1 or http://127.0.0.1:11434/v1
+llm_api_key: null # Recommended: supply via TRANSCRIBER_LLM_API_KEY environment variable
+llm_model: null # e.g. gpt-4o-mini or qwen2.5:14b-instruct-q4_K_M
+llm_temperature: 0.0
+llm_batch_size: 6
+llm_response_format: "json_schema" # json_schema | json_object
+llm_timeout_s: 120.0
+llm_max_retries: 5
+
+# Workers
+asr_workers: 1
+llm_workers: 4
