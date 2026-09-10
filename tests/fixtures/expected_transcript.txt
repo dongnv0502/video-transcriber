@@ -1,0 +1,3 @@
+Chào mừng các bạn đến với khóa học AWS căn bản.
+Trong bài học này chúng ta sẽ tìm hiểu về IAM Role cho phép EC2 truy cập S3.
+Sau đó chúng ta cấu hình VPC và Subnet.

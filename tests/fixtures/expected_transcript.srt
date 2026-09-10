@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:04,500
+Chào mừng các bạn đến với khóa học AWS căn bản.
+
+2
+00:00:05,000 --> 00:00:12,000
+Trong bài học này chúng ta sẽ tìm hiểu về IAM Role cho phép EC2 truy cập S3.
+
+3
+00:00:13,000 --> 00:00:18,500
+Sau đó chúng ta cấu hình VPC và Subnet.
