@@ -49,3 +49,10 @@ terms:
   - WAF
   - Shield
   - Secrets Manager
+  - Permission Boundary
+  - Trust Relationship
+  - Root User
+  - Resource-based Policy
+  - Identity-based Policy
+  - AWS Management Console
+  - AWS CLI
